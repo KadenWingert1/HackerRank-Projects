@@ -1,22 +1,12 @@
-import java.util.Scanner;
+ public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int i = sc.nextInt();
+            double d= sc.nextDouble();
+            sc.nextLine();
+            String s = sc.nextLine();
 
-public class Solution {
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        
-        String s = scan.next();
-        while(scan.hasNext()){
-            
-         s += " " + scan.next();
-        
-        }
-
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-        
+            System.out.println("String: "+ s);
+            System.out.println("Double: "+ d);
+            System.out.println("Int: "+ i);
     }
-}
